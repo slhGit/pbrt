@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/src/ptex/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/me/pbrt/src/ext/ptex/src/ptex/CMakeFiles/generate.stamp is up-to-date.
+  PtexCache.cpp
+  PtexFilters.cpp
+  PtexHalf.cpp
+  PtexReader.cpp
+  PtexSeparableFilter.cpp
+  PtexSeparableKernel.cpp
+  PtexTriangleFilter.cpp
+  PtexTriangleKernel.cpp
+  PtexUtils.cpp
+  PtexWriter.cpp
+  Generating Code...
+  Ptex_static.vcxproj -> C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex\Debug\Ptex.lib

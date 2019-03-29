@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt
+  CMake is re-running because C:/Users/me/pbrt/src/ext/openexr/IlmBase/IexMath/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "C:/Users/me/pbrt" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.

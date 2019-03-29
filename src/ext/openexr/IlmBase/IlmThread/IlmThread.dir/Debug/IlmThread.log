@@ -1,0 +1,15 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/me/pbrt/src/ext/openexr/IlmBase/IlmThread/CMakeFiles/generate.stamp is up-to-date.
+  IlmThread.cpp
+  IlmThreadMutex.cpp
+  IlmThreadMutexPosix.cpp
+  IlmThreadPool.cpp
+  IlmThreadPosix.cpp
+  IlmThreadSemaphore.cpp
+  IlmThreadSemaphorePosixCompat.cpp
+  IlmThreadSemaphorePosix.cpp
+  IlmThreadMutexWin32.cpp
+  IlmThreadSemaphoreWin32.cpp
+  IlmThreadWin32.cpp
+  Generating Code...
+  IlmThread.vcxproj -> C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\IlmThread\Debug\IlmThread.lib

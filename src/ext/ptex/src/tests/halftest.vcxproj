@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7AEDBAFD-19BD-38D0-BE2C-0E1C6E6A1FDC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>halftest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">halftest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">halftest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">halftest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">halftest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">halftest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">halftest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">halftest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">halftest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;PTEX_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;PTEX_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\ptex\Debug\Ptex.lib;..\..\..\zlib\Debug\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/me/pbrt/src/ext/ptex/src/tests/Debug/halftest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/me/pbrt/src/ext/ptex/src/tests/Debug/halftest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4800;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;PTEX_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;PTEX_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\ptex\Release\Ptex.lib;..\..\..\zlib\Release\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/me/pbrt/src/ext/ptex/src/tests/Release/halftest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/me/pbrt/src/ext/ptex/src/tests/Release/halftest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4800;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;PTEX_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;PTEX_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\ptex\MinSizeRel\Ptex.lib;..\..\..\zlib\MinSizeRel\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/me/pbrt/src/ext/ptex/src/tests/MinSizeRel/halftest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/me/pbrt/src/ext/ptex/src/tests/MinSizeRel/halftest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;PTEX_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;PTEX_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\ptex\RelWithDebInfo\Ptex.lib;..\..\..\zlib\RelWithDebInfo\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/me/pbrt/src/ext/ptex/src/tests/RelWithDebInfo/halftest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/me/pbrt/src/ext/ptex/src/tests/RelWithDebInfo/halftest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/me/pbrt/src/ext/ptex/src/tests/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\halftest.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\ZERO_CHECK.vcxproj">
+      <Project>{075E11E5-A07C-30BA-A3BB-59790D716FBF}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex\Ptex_dynamic.vcxproj">
+      <Project>{4DCDDA22-E7F0-3365-A544-299B18D7C1AE}</Project>
+      <Name>Ptex_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\zlib\zlibstatic.vcxproj">
+      <Project>{C69570F1-B93A-3602-B612-BEE45EBD0549}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,112 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp is up-to-date.
+  Generating b44ExpLogTable.h
+  Generating dwaLookups.h
+   Building acceleration for DwaCompressor, 0.00 %
+   Building acceleration for DwaCompressor, 12.21 %
+   Building acceleration for DwaCompressor, 24.41 %
+   Building acceleration for DwaCompressor, 36.62 %
+   Building acceleration for DwaCompressor, 48.83 %
+   Building acceleration for DwaCompressor, 61.04 %
+   Building acceleration for DwaCompressor, 73.24 %
+   Building acceleration for DwaCompressor, 85.45 %
+   Building acceleration for DwaCompressor, 97.66 %
+  ImfAttribute.cpp
+  ImfBoxAttribute.cpp
+  ImfCRgbaFile.cpp
+  ImfChannelList.cpp
+  ImfChannelListAttribute.cpp
+  ImfFloatAttribute.cpp
+  ImfFrameBuffer.cpp
+  ImfHeader.cpp
+  ImfIO.cpp
+  ImfInputFile.cpp
+  ImfIntAttribute.cpp
+  ImfLineOrderAttribute.cpp
+  ImfMatrixAttribute.cpp
+  ImfOpaqueAttribute.cpp
+  ImfOutputFile.cpp
+  ImfRgbaFile.cpp
+  ImfStringAttribute.cpp
+  ImfVecAttribute.cpp
+  ImfHuf.cpp
+  ImfThreading.cpp
+  Generating Code...
+  Compiling...
+  ImfWav.cpp
+  ImfLut.cpp
+  ImfCompressor.cpp
+  ImfRleCompressor.cpp
+  ImfZipCompressor.cpp
+  ImfPizCompressor.cpp
+  ImfB44Compressor.cpp
+  ImfDwaCompressor.cpp
+  ImfMisc.cpp
+  ImfCompressionAttribute.cpp
+  ImfDoubleAttribute.cpp
+  ImfConvert.cpp
+  ImfPreviewImage.cpp
+  ImfPreviewImageAttribute.cpp
+  ImfVersion.cpp
+  ImfChromaticities.cpp
+  ImfChromaticitiesAttribute.cpp
+  ImfKeyCode.cpp
+  ImfKeyCodeAttribute.cpp
+  ImfTimeCode.cpp
+  Generating Code...
+  Compiling...
+  ImfTimeCodeAttribute.cpp
+  ImfRational.cpp
+  ImfRationalAttribute.cpp
+  ImfFramesPerSecond.cpp
+  ImfStandardAttributes.cpp
+  ImfStdIO.cpp
+  ImfEnvmap.cpp
+  ImfEnvmapAttribute.cpp
+  ImfScanLineInputFile.cpp
+  ImfTiledInputFile.cpp
+  ImfTiledMisc.cpp
+  ImfTiledOutputFile.cpp
+  ImfTiledRgbaFile.cpp
+  ImfTileDescriptionAttribute.cpp
+  ImfTileOffsets.cpp
+  ImfRgbaYca.cpp
+  ImfPxr24Compressor.cpp
+  ImfTestFile.cpp
+  ImfStringVectorAttribute.cpp
+  ImfMultiView.cpp
+  Generating Code...
+  Compiling...
+  ImfAcesFile.cpp
+  ImfMultiPartOutputFile.cpp
+  ImfGenericOutputFile.cpp
+  ImfOutputPartData.cpp
+  ImfMultiPartInputFile.cpp
+  ImfGenericInputFile.cpp
+  ImfPartType.cpp
+  ImfInputPartData.cpp
+  ImfOutputPart.cpp
+  ImfTiledOutputPart.cpp
+  ImfInputPart.cpp
+  ImfTiledInputPart.cpp
+  ImfDeepScanLineInputPart.cpp
+  ImfDeepScanLineOutputPart.cpp
+  ImfDeepScanLineInputFile.cpp
+  ImfDeepScanLineOutputFile.cpp
+  ImfDeepTiledInputPart.cpp
+  ImfDeepTiledOutputPart.cpp
+  ImfDeepTiledInputFile.cpp
+  ImfDeepTiledOutputFile.cpp
+  Generating Code...
+  Compiling...
+  ImfDeepFrameBuffer.cpp
+  ImfDeepCompositing.cpp
+  ImfCompositeDeepScanLine.cpp
+  ImfDeepImageStateAttribute.cpp
+  ImfFastHuf.cpp
+  ImfFloatVectorAttribute.cpp
+  ImfRle.cpp
+  ImfSystemSpecific.cpp
+  ImfZip.cpp
+  Generating Code...
+  IlmImf.vcxproj -> C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf\Debug\IlmImf.lib

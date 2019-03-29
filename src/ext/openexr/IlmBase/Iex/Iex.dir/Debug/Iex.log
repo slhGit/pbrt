@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/IlmBase/Iex/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/me/pbrt/src/ext/openexr/IlmBase/Iex/CMakeFiles/generate.stamp is up-to-date.
+  IexBaseExc.cpp
+  IexThrowErrnoExc.cpp
+  Generating Code...
+  Iex.vcxproj -> C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex\Debug\Iex.lib

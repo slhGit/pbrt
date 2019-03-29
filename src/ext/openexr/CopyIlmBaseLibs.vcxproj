@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A8EBBA9E-59FF-3354-BD44-8877B8B1D7A7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CopyIlmBaseLibs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\IlmThread;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\IlmThread;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\IlmThread;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\IlmThread;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/openexr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/me/pbrt/src/ext/openexr/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/openexr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/me/pbrt/src/ext/openexr/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/openexr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/me/pbrt/src/ext/openexr/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/openexr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/me/pbrt/src/ext/openexr/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\me\source\repos\pbrt\CMakeFiles\0737ea4aff588a7b493bb6cff7c30191\CopyIlmBaseLibs.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Half/Debug C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/IlmThread/Debug C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Iex/Debug C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Imath/Debug C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/me/pbrt/CMakeFiles/0737ea4aff588a7b493bb6cff7c30191/CopyIlmBaseLibs.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\CopyIlmBaseLibs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Half/Release C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/IlmThread/Release C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Iex/Release C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Imath/Release C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/me/pbrt/CMakeFiles/0737ea4aff588a7b493bb6cff7c30191/CopyIlmBaseLibs.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\CopyIlmBaseLibs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Half/MinSizeRel C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/IlmThread/MinSizeRel C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Iex/MinSizeRel C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Imath/MinSizeRel C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/me/pbrt/CMakeFiles/0737ea4aff588a7b493bb6cff7c30191/CopyIlmBaseLibs.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\CopyIlmBaseLibs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Half/RelWithDebInfo C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/IlmThread/RelWithDebInfo C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Iex/RelWithDebInfo C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/me/pbrt/src/ext/openexr/IlmBase/Imath/RelWithDebInfo C:/Users/me/pbrt/src/ext/openexr/OpenEXR/IlmImf/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/me/pbrt/CMakeFiles/0737ea4aff588a7b493bb6cff7c30191/CopyIlmBaseLibs.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\CopyIlmBaseLibs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\me\source\repos\pbrt\src\ext\openexr\CMakeFiles\CopyIlmBaseLibs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\ZERO_CHECK.vcxproj">
+      <Project>{075E11E5-A07C-30BA-A3BB-59790D716FBF}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half\Half.vcxproj">
+      <Project>{63F3DAF9-E985-33C2-892F-13D0FAF107C4}</Project>
+      <Name>Half</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex\Iex.vcxproj">
+      <Project>{E37C1E1E-98BA-3200-85F9-E64AA2DB0C70}</Project>
+      <Name>Iex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\IlmThread\IlmThread.vcxproj">
+      <Project>{CB9FAC68-F837-3C08-9042-32DCBA50EFEC}</Project>
+      <Name>IlmThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath\Imath.vcxproj">
+      <Project>{E6BEC0DC-0B41-3606-B2C6-405188BEE6A0}</Project>
+      <Name>Imath</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/me/pbrt/src/ext/openexr/IlmBase/IexMath/CMakeFiles/generate.stamp is up-to-date.
+  IexMathFloatExc.cpp
+  IexMathFpu.cpp
+  Generating Code...
+  IexMath.vcxproj -> C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\IexMath\Debug\IexMath.lib

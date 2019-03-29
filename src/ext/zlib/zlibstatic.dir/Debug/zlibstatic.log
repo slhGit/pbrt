@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/zlib/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/me/pbrt/src/ext/zlib/CMakeFiles/generate.stamp is up-to-date.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+  zlibstatic.vcxproj -> C:\Users\me\source\repos\pbrt\src\ext\zlib\Debug\zlibstatic.lib

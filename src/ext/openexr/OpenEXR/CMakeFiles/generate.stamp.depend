@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/me/pbrt/src/ext/openexr/OpenEXR/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.10/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.10/Templates/CPackConfig.cmake.in
+C:/Program Files/CMake/share/cmake-3.10/Templates/CPackConfig.cmake.in
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake

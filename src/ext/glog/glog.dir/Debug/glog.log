@@ -1,0 +1,29 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/glog/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/me/pbrt/src/ext/glog/CMakeFiles/generate.stamp is up-to-date.
+  demangle.cc
+c:\users\me\pbrt\src\ext\glog\src\demangle.cc(343): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  logging.cc
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(200): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(216): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(631): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(764): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(789): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(799): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(1082): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(1082): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(1343): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(1343): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(1416): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(1438): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(1516): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\logging.cc(1529): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  raw_logging.cc
+c:\users\me\pbrt\src\ext\glog\src\raw_logging.cc(153): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  symbolize.cc
+  utilities.cc
+  vlog_is_on.cc
+c:\users\me\pbrt\src\ext\glog\src\vlog_is_on.cc(163): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\me\pbrt\src\ext\glog\src\vlog_is_on.cc(163): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Generating Code...
+  port.cc
+  glog.vcxproj -> C:\Users\me\source\repos\pbrt\src\ext\glog\Debug\glog.lib

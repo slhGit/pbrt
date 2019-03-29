@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/me/pbrt/src/ext/openexr/IlmBase/Half/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/me/pbrt/src/ext/openexr/IlmBase/Half/CMakeFiles/generate.stamp is up-to-date.
+  eLut.cpp
+  eLut.vcxproj -> C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half\Debug\eLut.exe

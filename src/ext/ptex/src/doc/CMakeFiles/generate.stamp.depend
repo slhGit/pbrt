@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/me/pbrt/src/ext/ptex/src/doc/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake

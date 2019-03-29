@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{238D6325-0B28-3AE0-9429-5D14AD4E27D5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\me\source\repos\pbrt\src\ext\zlib;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Imath;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Half;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\Iex;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\IlmImf;C:\Users\me\source\repos\pbrt\src\ext\openexr\IlmBase\config;C:\Users\me\source\repos\pbrt\src\ext\openexr\OpenEXR\config;C:\Users\me\source\repos\pbrt\src\ext\glog\src;C:\Users\me\source\repos\pbrt\src\ext\glog;C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/ptex/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/me/pbrt/src/ext/ptex/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/ptex/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/me/pbrt/src/ext/ptex/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/ptex/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/me/pbrt/src/ext/ptex/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/me/pbrt/src/ext/ptex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/me/pbrt -BC:/Users/me/pbrt --check-stamp-file C:/Users/me/pbrt/src/ext/ptex/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/me/pbrt/src/ext/ptex/CMakeLists.txt;C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\me\source\repos\pbrt\src\ext\ptex\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\ZERO_CHECK.vcxproj">
+      <Project>{075E11E5-A07C-30BA-A3BB-59790D716FBF}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex\Ptex_dynamic.vcxproj">
+      <Project>{4DCDDA22-E7F0-3365-A544-299B18D7C1AE}</Project>
+      <Name>Ptex_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\ptex\Ptex_static.vcxproj">
+      <Project>{D2E98DAB-5A08-383B-B34B-41135EEB180E}</Project>
+      <Name>Ptex_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\ftest.vcxproj">
+      <Project>{6478C270-74D9-397B-A813-54FB4B989C2D}</Project>
+      <Name>ftest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\halftest.vcxproj">
+      <Project>{7AEDBAFD-19BD-38D0-BE2C-0E1C6E6A1FDC}</Project>
+      <Name>halftest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\utils\ptxinfo.vcxproj">
+      <Project>{F3F88CC0-A589-3523-9C71-1A4BABA4AD35}</Project>
+      <Name>ptxinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\rtest.vcxproj">
+      <Project>{B9AFE244-3CEA-3544-8C8C-C78AB34E8635}</Project>
+      <Name>rtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\me\source\repos\pbrt\src\ext\ptex\src\tests\wtest.vcxproj">
+      <Project>{F57543A4-4711-3744-95AE-C287944C507B}</Project>
+      <Name>wtest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
